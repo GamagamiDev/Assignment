@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* Colin Gamagami
+ * Assignment 3
+ * Handles game score
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

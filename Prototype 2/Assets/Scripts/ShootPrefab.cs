@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* Colin Gamagami
+ * Assignment 3
+ * Shoots food prefab
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

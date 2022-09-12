@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* Colin Gamagami
+ * Assignment 3
+ * Moves object forward
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

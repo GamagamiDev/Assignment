@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* Colin Gamagami
+ * Assignment 3
+ * Handles random spawning of animals
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,8 +14,12 @@ public class SpawnManager : MonoBehaviour
     private float rightBound = 14;
     private float spawnPosZ = 20;
 
+    public HealthSystem healthSystem;
+
     private void Start()
     {
+        healthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>();
+
         //InvokeRepeating("SpawnRandomPrefab", 2, 1.5f);
         StartCoroutine(SpawnRandomPrefabWithCoroutine());
     }
