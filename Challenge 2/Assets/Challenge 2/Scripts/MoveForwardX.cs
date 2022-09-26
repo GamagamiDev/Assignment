@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* Colin Gamagami
+ * Challenge 2
+ * Moves object forward
+ * */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
